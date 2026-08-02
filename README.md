@@ -12,7 +12,11 @@ This is the standalone Windows setup and firmware flashing utility for the **Ast
   - If the `firmware` folder also contains `bootloader.bin`, `partitions.bin`, and `boot_app0.bin`, it performs a full factory flash.
 - **Modern UI**: Features a sleek, dark-mode Astro-Design with transparent glassmorphism effects.
 
+## Plugin & Firmware
+- The tool already contains the necessary files to install the plugin and firmware
 
+**You can find more informations and downloads about the plugin and firmware here**:
+[AAPA Controller Plugin](https://github.com/Blayzer-Astro/AAPA-Controller-Plugin)
 
 ## License
 
