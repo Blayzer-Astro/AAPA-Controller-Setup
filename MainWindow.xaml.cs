@@ -91,7 +91,7 @@ namespace AAPASetup
 
                     string destPath = Path.Combine(pluginDir, "NINA.Plugin.AAPA.dll");
 
-                    ExtractResource("AAPASetup.NINA.Plugin.AAPA.dll", destPath);
+                    ExtractResource("AAPASetup.NINA.Plugin.AAPA_5.0.0.1.dll", destPath);
                     Log("NINA Plugin installed successfully!");
                 }
                 catch (Exception ex)

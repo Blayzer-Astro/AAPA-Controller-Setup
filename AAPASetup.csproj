@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="esptool.exe" />
-    <EmbeddedResource Include="NINA.Plugin.AAPA.dll" />
+    <EmbeddedResource Include="NINA.Plugin.AAPA_5.0.0.1.dll" />
   </ItemGroup>
 
   <ItemGroup>
