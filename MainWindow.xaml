@@ -212,7 +212,7 @@
                             <Hyperlink NavigateUri="https://github.com/Blayzer-Astro/AAPA-Controller-Setup" RequestNavigate="Hyperlink_RequestNavigate" Foreground="#00C6FF" TextDecorations="None">AAPA Controller Setup GitHub</Hyperlink>
                         </TextBlock>
                     </StackPanel>
-                    <TextBlock Text="Beta_4" Foreground="#444444" FontSize="10" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+                    <TextBlock Text="Beta_7" Foreground="#444444" FontSize="10" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
                 </Grid>
 
             </Grid>

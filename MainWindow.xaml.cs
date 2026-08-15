@@ -89,9 +89,18 @@ namespace AAPASetup
                         Directory.CreateDirectory(pluginDir);
                     }
 
-                    string destPath = Path.Combine(pluginDir, "NINA.Plugin.AAPA.dll");
+                    // Delete any old AAPA dlls (e.g. NINA.Plugin.AAPA.dll or NINA.Plugin.AAPA_5.0.0.1.dll)
+                    var oldFiles = Directory.GetFiles(pluginDir, "NINA.Plugin.AAPA*.dll");
+                    bool deletedOld = false;
+                    foreach (var file in oldFiles)
+                    {
+                        try { File.Delete(file); deletedOld = true; } catch { }
+                    }
+                    if (deletedOld) Log("Old plugin versions deleted.");
 
-                    ExtractResource("AAPASetup.NINA.Plugin.AAPA_5.0.0.1.dll", destPath);
+                    string destPath = Path.Combine(pluginDir, "NINA.Plugin.AAPA_5.0.0.9.dll");
+
+                    ExtractResource("AAPASetup.NINA.Plugin.AAPA_5.0.0.9.dll", destPath);
                     Log("NINA Plugin installed successfully!");
                 }
                 catch (Exception ex)
