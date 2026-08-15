@@ -10,6 +10,7 @@ This is the standalone Windows setup and firmware flashing utility for the **Ast
 - **Smart Flashing**: 
   - If placed next to a `firmware` folder containing just the application binary (`AAPA_for_software.ino.bin`), it performs a quick update flash.
   - If the `firmware` folder also contains `bootloader.bin`, `partitions.bin`, and `boot_app0.bin`, it performs a full factory flash.
+  - The .zip already contains the firmware for a full factory falsh.
 - **Modern UI**: Features a sleek, dark-mode Astro-Design with transparent glassmorphism effects.
 
 ## Plugin & Firmware
