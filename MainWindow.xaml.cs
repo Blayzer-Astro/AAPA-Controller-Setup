@@ -23,9 +23,9 @@ namespace AAPASetup
         {
             string baseDir = AppDomain.CurrentDomain.BaseDirectory;
             string firmwareDir = Path.Combine(baseDir, "firmware");
-            string appBin = Path.Combine(firmwareDir, "AAPA_for_software.ino.bin");
-            string bootloaderBin = Path.Combine(firmwareDir, "AAPA_for_software.ino.bootloader.bin");
-            string partitionsBin = Path.Combine(firmwareDir, "AAPA_for_software.ino.partitions.bin");
+            string appBin = Path.Combine(firmwareDir, "AAPA_for_softwareWIFI.ino.bin");
+            string bootloaderBin = Path.Combine(firmwareDir, "AAPA_for_softwareWIFI.ino.bootloader.bin");
+            string partitionsBin = Path.Combine(firmwareDir, "AAPA_for_softwareWIFI.ino.partitions.bin");
 
             if (File.Exists(appBin))
             {
@@ -132,9 +132,9 @@ namespace AAPASetup
                     string firmwareDir = Path.Combine(baseDir, "firmware");
                     
                     // Look for firmware bins in 'firmware' subfolder
-                    string appBin = Path.Combine(firmwareDir, "AAPA_for_software.ino.bin");
-                    string bootloaderBin = Path.Combine(firmwareDir, "AAPA_for_software.ino.bootloader.bin");
-                    string partitionsBin = Path.Combine(firmwareDir, "AAPA_for_software.ino.partitions.bin");
+                    string appBin = Path.Combine(firmwareDir, "AAPA_for_softwareWIFI.ino.bin");
+                    string bootloaderBin = Path.Combine(firmwareDir, "AAPA_for_softwareWIFI.ino.bootloader.bin");
+                    string partitionsBin = Path.Combine(firmwareDir, "AAPA_for_softwareWIFI.ino.partitions.bin");
 
                     if (!File.Exists(appBin))
                     {
