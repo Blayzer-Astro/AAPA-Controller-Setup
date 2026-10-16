@@ -1,7 +1,7 @@
 <Window x:Class="AAPASetup.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="AAPA Setup Beta 8" Height="600" Width="450"
+        Title="AAPA Setup Beta 10" Height="600" Width="450"
         WindowStyle="None" AllowsTransparency="True" Background="Transparent"
         ResizeMode="CanResizeWithGrip"
         WindowStartupLocation="CenterScreen"
@@ -212,7 +212,7 @@
                             <Hyperlink NavigateUri="https://github.com/Blayzer-Astro/AAPA-Controller-Setup" RequestNavigate="Hyperlink_RequestNavigate" Foreground="#00C6FF" TextDecorations="None">AAPA Controller Setup GitHub</Hyperlink>
                         </TextBlock>
                     </StackPanel>
-                    <TextBlock Text="Beta_8" Foreground="#444444" FontSize="10" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+                    <TextBlock Text="Beta_15" Foreground="#444444" FontSize="10" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
                 </Grid>
 
             </Grid>

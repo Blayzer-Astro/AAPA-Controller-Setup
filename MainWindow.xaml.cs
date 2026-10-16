@@ -98,9 +98,11 @@ namespace AAPASetup
                     }
                     if (deletedOld) Log("Old plugin versions deleted.");
 
-                    string destPath = Path.Combine(pluginDir, "NINA.Plugin.AAPA_5.0.0.9.dll");
-
-                    ExtractResource("AAPASetup.NINA.Plugin.AAPA_5.0.0.9.dll", destPath);
+                    string destPath = Path.Combine(pluginDir, "NINA.Plugin.AAPA_5.0.0.15.dll");
+                    ExtractResource("AAPASetup.NINA.Plugin.AAPA_5.0.0.15.dll", destPath);
+                    
+                    string fleckDestPath = Path.Combine(pluginDir, "Fleck.dll");
+                    ExtractResource("AAPASetup.Fleck.dll", fleckDestPath);
                     Log("NINA Plugin installed successfully!");
                 }
                 catch (Exception ex)

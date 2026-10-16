@@ -8,12 +8,14 @@
     <UseWPF>true</UseWPF>
     <ApplicationIcon>icon.ico</ApplicationIcon>
     <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
     <SelfContained>false</SelfContained>
   </PropertyGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="esptool.exe" />
-    <EmbeddedResource Include="NINA.Plugin.AAPA_5.0.0.9.dll" />
+    <EmbeddedResource Include="NINA.Plugin.AAPA_5.0.0.15.dll" />
+    <EmbeddedResource Include="Fleck.dll" />
   </ItemGroup>
 
   <ItemGroup>
